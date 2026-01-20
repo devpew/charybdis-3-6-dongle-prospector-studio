@@ -10,9 +10,9 @@
 #define GAME 5
 #define RESET 6
 
-#define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24  
-#define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
-#define THUMBS 30 31 32 33 34 35  
+#define KEYS_L  0 1 2 3 4 5    12 13 14 15 16 17  24 25 26 27 28 29
+#define KEYS_R  6 7 8 9 10 11  18 19 20 21 22 23  30 31 32 33 34 35
+#define THUMBS  36 37 38 39 40
 
 &sk {
   release-after-ms = <600>;
@@ -228,6 +228,7 @@
     };
   };
 };
+
 
 
 
