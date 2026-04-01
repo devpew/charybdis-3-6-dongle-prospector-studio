@@ -160,9 +160,9 @@
     Base {
       display-name = "Base";
       bindings = <
-        &lt FUNCTION ESCAPE   &kp Q        &kp W        &kp E           &kp R        &kp T                     &kp Y                &kp U                      &kp I          &kp O         &kp P            &trans
-        &kp TAB           &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G                     &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI   &trans
-        &kp LSHFT         &kp Z        &mt LC(X) X  &mt LC(C) C     &kp V        &mt LC(V) B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH         &trans
+        &lt FUNCTION ESCAPE   &kp Q        &kp W        &kp E           &kp R        &kp T                     &kp Y                &kp U                      &kp I          &kp O         &kp P        &kp LEFT_BRACKET
+        &kp TAB           &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G                     &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI   &kp APOS
+        &kp LSHFT         &kp Z        &mt LC(X) X  &mt LC(C) C     &kp V        &mt LC(V) B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH         &kp RIGHT_BRACKET
                                        &kp LCTRL    &mo 2     &mt LGUI RET          &lt NUMBER SPACE       &kp BSPC
       >;
     };
