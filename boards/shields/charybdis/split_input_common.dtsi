@@ -36,7 +36,7 @@
 
     move {
       layers = <DEF MOUSE>;
-      input-processors = <&pointer_accel>, <&auto_mouse_layer MOUSE 1000>;
+      input-processors = <&auto_mouse_layer MOUSE 1000>;
     };
   };
 
