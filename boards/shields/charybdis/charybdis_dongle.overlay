@@ -14,5 +14,10 @@
 };
 
 &trackball_listener {
-    status = "okay";
+  status = "okay";
+  
+  move {
+    layers = <DEF MOUSE>;
+    input-processors = <&pointer_accel>, <&auto_mouse_layer MOUSE 1000>;
+  };
 };
