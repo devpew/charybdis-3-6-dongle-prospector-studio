@@ -1,8 +1,5 @@
 #include <input/processors.dtsi>
 #include <behaviors/input_gestures_accel.dtsi>
-#include "charybdis.dtsi"
-#include "charybdis_3610.dtsi"
-#include "split_input_common.dtsi"
 
 // Конфигурация ускорения для трекбола
 &pointer_accel {
@@ -14,6 +11,10 @@
     acceleration-exponent = <2>; // Квадратичная кривая
     track-remainders;            // Отслеживать дробные перемещения
 };
+
+#include "charybdis.dtsi"
+#include "charybdis_3610.dtsi"
+#include "split_input_common.dtsi"
 
 &default_transform {
 	col-offset = <6>;
